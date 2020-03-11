@@ -22,5 +22,3 @@ while x!=0:
     print ("2**"+str(b),end='')
     if x!=0:
         print ("+",end='')
-    if x==0:
-        break
