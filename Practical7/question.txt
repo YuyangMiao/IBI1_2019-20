@@ -1,0 +1,8 @@
+Question: How have new cases and total cases developed over time in Spain?
+
+The question is addressed from line 72 to line 87 in the covid.py ﬁle.
+
+Discussion: The result met my expectations. On the early stage of COVID-19 
+                   outbreak, people are neglectful of taking precautions. One infected 
+                   person can pass the virus to other persons, and the process will 
+                   keep going. Consequently, total cases grow rapidly at these days.
