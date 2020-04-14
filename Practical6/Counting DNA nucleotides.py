@@ -7,7 +7,7 @@ Created on Wed Mar 18 09:02:19 2020
 #import matplotlib.pyplot
 import matplotlib.pyplot as plt
 # import DNA sequence
-DNA=['A','T','G','C','T','T','C','A','G','A','A','A','G','G','T','C','T','T','A','C','G']
+DNA=input ('Please type in a DNA sequence here: ')
 total=len (DNA)
 A=0
 T=0
@@ -32,6 +32,6 @@ explode=(0,0,0,0)
 colors=['khaki','lightgreen','paleturquoise','pink']
 plt.pie(size,explode=explode,colors=colors,labels=labels,autopct='%1.2f%%',shadow=False,startangle=90)
 plt.axis('equal')
-plt.title('pie of the four DNA nucleotides')
+plt.title('Pie of the four DNA nucleotides')
 plt.show()
 print (FD)

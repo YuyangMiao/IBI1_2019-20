@@ -15,6 +15,6 @@ if a==e:
 X=True
 Y=False
 W=(X and not Y)or(Y and not X)
-print (W)
 Z=X!=Y
-print (Z)
+if Z==W:
+    print('Z and W are the same')
