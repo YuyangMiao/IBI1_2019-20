@@ -1,0 +1,2 @@
+Every number in list1 is a result after N-1 times operation (where N is the number of inputted numbers), 
+so the total recursion times is the number of elements in list1 multiples (N-1).
