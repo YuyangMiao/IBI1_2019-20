@@ -5,7 +5,7 @@ Created on Wed Apr  1 10:03:51 2020
 @author: joe_m
 """
 
-seq = 'ATGCGACTACGATCGAGGGCCAT' 
+seq = input('Please type in a DNA sequence here: ')
 cDNA=[]
 # Find complementary bases for every bases in 'gene'
 for item in seq:
@@ -21,4 +21,4 @@ for item in seq:
 cDNA.reverse()
 #convert list to string
 output=''.join(cDNA)
-print ('The  Reverse complementary sequence is: ' + output)
+print ('The Reverse complementary sequence is: ' + output)

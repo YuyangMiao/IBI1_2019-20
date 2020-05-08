@@ -1,2 +1,8 @@
-Every number in list1 is a result after N-1 times operation (where N is the number of inputted numbers), 
-so the total recursion times is the number of elements in list1 multiples (N-1).
+The worst case:
+Suppose N numbers are inputted.
+After permutation, there will be N! orders.
+For each order, 5^(N-1) results will be generated (5^(N-1) elements in list1).
+Every elements in list1 is a result after N-1 times operation
+so the total recursion times is (N-1)*N!* 5^(N-1)
+O((N-1)*N!* 5^(N-1))=N!
+

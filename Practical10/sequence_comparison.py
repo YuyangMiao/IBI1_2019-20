@@ -18,9 +18,9 @@ for line in b:
     mouse+=line
 for line in c:
     random+=line
-#remove descriptions
-human_SOD2=re.sub('(.+\)\n)','',human)
-human_SOD2=re.sub('\n','',human_SOD2)
+
+human_SOD2=re.sub('(.+\)\n)','',human) #remove descriptions
+human_SOD2=re.sub('\n','',human_SOD2) #remove remaining new line characters
 mouse_SOD2=re.sub('(.+\)\n)','',mouse)
 mouse_SOD2=re.sub('\n','',mouse_SOD2)
 random_seq=re.sub('(>.+\n)','',random)
