@@ -6,7 +6,9 @@ Created on Wed Apr 22 17:10:52 2020
 """
 
 import itertools
-x=input('''Please input numbers to compute 24 (use ',' to devide them): ''')
+import fractions
+#x=input('''Please input numbers to compute 24 (use ',' to devide them): ''')
+x='3,8,3,8'
 numbers=x.split(',')
 numbers_int = [int(x) for x in numbers]
 numbers_int.sort()
@@ -18,13 +20,14 @@ def compute(m,n):
     If one of the numbers is o, it will not be divided.
     '''
     if m!=0 and n!=0:
-        z=[m+n,abs(n-m),m*n,m/n,n/m] 
+        z=[m+n,abs(n-m),m*n,fractions.Fraction(m,n),fractions.Fraction(n,m)] 
         #since the all numbers are positive, operations that generate negative results are unnecessary
         #so abs(n-m), instead of n-m and m-n
+        #fractions.Fraction(m,n)=m/n (will not be converted to float)
     if m==0 and n!=0:
-        z=[m+n,abs(n-m),m*n,m/n]
+        z=[m+n,abs(n-m),m*n,fractions.Fraction(m,n)]
     if m!=0 and n==0:
-        z=[m+n,abs(n-m),m*n,n/m]
+        z=[m+n,abs(n-m),m*n,fractions.Fraction(n,m)]
     if m==0 and n==0:
         z=[m+n,abs(n-m),m*n]
     return z

@@ -12,9 +12,9 @@ import numpy as np
 os.chdir(r"C:\Users\joe_m\IBI1_2019-20\Practical7") 
 covid_data = pd.read_csv("full_data.csv")
 
-#code for showing all rows, and every third column between (and including) 0 and 15 
-a=covid_data.iloc[:,0:16:3]
-print('All rows and every third column between (and including) 0 and 15:')
+#code for showing all columns, and every third row between (and including) 0 and 15 
+a=covid_data.iloc[0:16:3,:]
+print('All columns and every third row between (and including) 0 and 15:')
 print(a)
 print('')
 
