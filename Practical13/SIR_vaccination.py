@@ -17,7 +17,7 @@ total=10000 #population size
 #Susceptible-β-Infected-γ-Recovered 
 timescale=np.arange(1,1001)
 
-for i in range(1,11):
+for i in range(0,11):
     infected=1;recovered=0 #initial situation
     vaccinated=int(total*i/10)
     susceptible=9999-vaccinated

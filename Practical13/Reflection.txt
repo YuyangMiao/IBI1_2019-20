@@ -1,0 +1,5 @@
+The task 1 and 2 are relatively easy compared with task 3. Task 1 and 2 are actually a math problem that 
+calculate number of susceptible, infected and recovered people at every time point. However, in task 3, 
+I was stuck in how to change the states of 8 people around infected ones for a long time. Fortunately, I 
+managed to do it after consulting the snippet provided. I found it's really important to ask for help when 
+encounter difficulties, rather than "fight alone".

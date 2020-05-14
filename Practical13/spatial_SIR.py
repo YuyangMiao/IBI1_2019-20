@@ -104,8 +104,8 @@ def spread(x,y):
                 if population[xNeighbour,yNeighbour]==2: #recovered
                     population[xNeighbour,yNeighbour]=2
     return population
-#while len(np.where(population==1)[1])!=20: #continue modelling until only 20 infected people remain
-for k in range(70): #can also pecify the model time
+#while len(np.where(population==1)[1])!=20: #simulation continues until only 20 infected people remain
+for k in range(100): #can also pecify the model time
     for j in range(len(np.where(population==1)[1])-1,-1,-1): 
         x=np.where(population==1)[0][j] #vertical axis
         y=np.where(population==1)[1][j] #horizontal axis

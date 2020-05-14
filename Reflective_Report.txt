@@ -1,0 +1,22 @@
+The IBI1 course this semester has equipped me with Python knowledge and initiated me into computer programming. 
+
+I did a generally good job in first few practicals according to the formative feedback I received for GitHub Portfolio ICA. 
+However, I left a file that needed submitting out of my GitHub repository, so I need to be more careful with checking if 
+all files required are kept in the repository in the future. Besides, I will also try to make it easier for users to input information 
+into my programmes, as the feedback said. This can be achieved by providing users an input interface, and asking them 
+to input strings rather than lists.
+
+As we got deeper into Python programming, I felt that practicals assigned became trickier and I had to spend more time 
+working on them. However, this offered me many opportunities to practice asking efficient and proper questions, and I 
+have made some progress in it. Those difficult practical tasks also helped me gain some logical thinking skills. I was easily 
+got confused before when facing those tasks, having no idea about what needs to be done first. But my thought is becoming
+ clearer and clearer after those practices. There are also some weaknesses in my programming. Firstly, I am still feeling 
+confused with all types of brackets in Python and it always takes me a long time to determine the correct type in one code. 
+I think it will be gradually improved by practicing more. Secondly, some programme I wrote have very high orders of growth, 
+which are reflected in long running times when dealing with big inputs. I will try to improve this by comparing different 
+algorithms for a programme and adopt the simplest one. It may take great efforts to find a simper algorithm, but I will exert 
+myself to the utmost.
+
+Although I am not a BMI student and may not have many chances to learn programming from programme courses, I will seize 
+any opportunity around me to practice programming and exchange ideas with BMI students, or do some online research. 
+Computer programming is indispensable in biomedical research.

@@ -7,8 +7,9 @@ Created on Wed Apr 22 17:10:52 2020
 
 import itertools
 import fractions
-#x=input('''Please input numbers to compute 24 (use ',' to devide them): ''')
-x='3,8,3,8'
+
+x=input('''Please input numbers to compute 24 (use ',' to devide them) 
+(All numbers inputted will be used): ''')
 numbers=x.split(',')
 numbers_int = [int(x) for x in numbers]
 numbers_int.sort()
